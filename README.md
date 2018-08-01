@@ -20,7 +20,7 @@ This project is a sample of web automation with selenium and java.
 
 * See your JRE System set this to **JavaSE 1.8** (only if you need)
 * Create a folder calling driver and paste Chromedriver.exe inside
-* Update Junit Depedency to **4.12**
+* Update Junit Dependency to **4.12**
 
 ```xml
 <dependency>
@@ -31,7 +31,7 @@ This project is a sample of web automation with selenium and java.
 </dependency>
 ```
 
-* Add selenium java depedency 
+* Add selenium java dependency 
 
 ```xml
 <dependency>
@@ -94,13 +94,13 @@ public static void tearDown() {
 
 * Fill input element
 ```java
-// Fill input explaning line by line
+// Fill input explanation line by line
 
   webDriver.findElement(By); -> // find a web element by locator 
   
   By.id("myiD") -> // my locator is a id of a element
   
-  webDriver.findElement(By.id("myID")).sendKeys("MEU TEXTO") -> // sendKeys fill a input find by id with "MEU TEXTO"
+  webDriver.findElement(By.id("myID")).sendKeys("MY TEXT") -> // sendKeys fill a input find by id with "MY TEXT"
 ```
 
 * Click in a element
@@ -110,7 +110,7 @@ public static void tearDown() {
   webDriver.findElement(By.id("myID")).click();
 ```
 
-* Check result of all flow interacation
+* Check result of all flow interaction
 ```java
 
 // Get the text of element and remove spaces from start and end of full text
@@ -133,22 +133,24 @@ public static void tearDown() {
  
  ### Running tests with maven
  
- * Inside the root directory of projet run
+ * Inside the root directory of project run
  ```
  $ mvn clean test
  ```
  
- ## Challange!
+ ## Challenge!
  
  ### Can you test all operations flow of this web simple calculator ?
 
 * https://kalyneramon.com.br/lel/
 
-It's your challange, change this actual code to do this!
+It's your challenge, change this actual code to do this!
 
 ![Digimon mail loading](https://media.giphy.com/media/EK4fZHK5hx9mw/giphy.gif "You Can!!")
  
   
+
+
 
 
 
