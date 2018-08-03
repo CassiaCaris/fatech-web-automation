@@ -28,15 +28,16 @@ public class WorkshopFatechTest {
 	public static void tearUp() {
 		WebDriverSystemProperties.setWebDriverProperties(System.getProperty("os.name"));
 		webDriver = new ChromeDriver();
-		webDriver.get("https://kalyneramon.com.br/lel/");
+		webDriver.get("http://qaunderground.com.br/calculator/");
 	}
 	
 	@Test
-	public void soma() {
+	public void sum() {
 		webDriver.findElement(By.id("firstNumber")).sendKeys("20");
 		webDriver.findElement(By.id("secondNumber")).sendKeys("20");
 		webDriver.findElement(By.id("Web-Button-Sum")).click();
-		assertTrue("Erro ao verificar o fluxo de soma!", "40".equals(webDriver.findElement(By.id("resultWeb")).getText().trim()));
+	    String result =  webDriver.findElement(By.id("resultWeb")).getText().trim();
+		assertTrue("Error when try to sum two numbers!", "40".equals(result));
 	}
 	
 	@AfterClass
