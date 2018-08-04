@@ -4,9 +4,9 @@ This project is a sample of web automation with selenium and java.
 
 ## Getting Started
 
-* Java 8 
-* A IDE for developing, Eclipse or Intellij
-* Download ChromeDriver
+* [Java 8](https://www.java.com/pt_BR/download/)
+* A IDE for developing, [Eclipse](http://www.eclipse.org/downloads/packages/) or [Intellij](https://www.jetbrains.com/idea/download/#section=mac)
+* Download [ChromeDriver](http://chromedriver.chromium.org/downloads)
 
 ## First Step
 
@@ -89,7 +89,7 @@ public static void tearDown() {
 ```java
 // Opening a url
 
-  webDriver.get("https://kalyneramon.com.br/lel/");
+  webDriver.get("http://qaunderground.com.br/calculator/");
 ```
 
 * Fill input element
@@ -142,7 +142,7 @@ public static void tearDown() {
  
  ### Can you test all operations flow of this web simple calculator ?
 
-* https://kalyneramon.com.br/lel/
+* http://qaunderground.com.br/calculator/
 
 It's your challenge, change this actual code to do this!
 
