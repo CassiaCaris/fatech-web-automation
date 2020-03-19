@@ -89,7 +89,7 @@ public static void tearDown() {
 ```java
 // Opening a url
 
-  webDriver.get("http://qaunderground.com.br/calculator/");
+  webDriver.get("https://kalyneramon.com.br/lel/calc/");
 ```
 
 * Fill input element
@@ -142,7 +142,7 @@ public static void tearDown() {
  
  ### Can you test all operations flow of this web simple calculator ?
 
-* http://qaunderground.com.br/calculator/
+* https://kalyneramon.com.br/lel/calc/
 
 It's your challenge, change this actual code to do this!
 
